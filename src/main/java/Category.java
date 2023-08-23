@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public enum Category {
+public enum Category {
+    FOOD,
+    ELECTRONICS,
+    BEVERAGES,
+    CLOTHING,
+    SHOES,
+    FURNITURE
 }

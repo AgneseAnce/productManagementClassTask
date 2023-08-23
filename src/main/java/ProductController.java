@@ -1,2 +1,14 @@
-package PACKAGE_NAME;public class ProductController {
+public class ProductController {
+    public void createProduct() {
+
+    }
+
+    public void viewAllProduct() {
+    }
+
+    public void updateProduct() {
+    }
+
+    public void removeProduct() {
+    }
 }
