@@ -32,6 +32,11 @@ public class ProductMenuController {
                     this.productController.removeProduct();
                     break;
                 case "5":
+                    // Sort
+                    this.productController.sortProductsBy();
+
+                    break;
+                case "6":
                     // Exit
                  System.exit(0);
                     break;
@@ -49,7 +54,8 @@ public class ProductMenuController {
                 2. View all products
                 3. Update a product
                 4. Delete a product
-                5. Exit
+                5. Sort/filter products
+                6. Exit
                 """;
     }
 }
