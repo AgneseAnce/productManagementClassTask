@@ -17,7 +17,7 @@ public class ProductMenuController {
             switch (userChoice) {
                 case "1":
                     // create
-                    this.productController.createProduct();
+                    this.productController.addProduct();
                     break;
                 case "2":
                     // View all

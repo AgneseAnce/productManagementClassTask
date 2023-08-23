@@ -4,5 +4,6 @@ public enum Category {
     BEVERAGES,
     CLOTHING,
     SHOES,
-    FURNITURE
+    FURNITURE,
+    OTHER
 }
