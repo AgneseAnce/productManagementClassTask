@@ -6,7 +6,6 @@ public class ProductMenuController {
             String userChoice = JOptionPane.showInputDialog(
                     this.getMenuItems());
             this.handleUserChoice(userChoice);
-            // recursion
             this.start();
     }
 
@@ -34,7 +33,6 @@ public class ProductMenuController {
                 case "5":
                     // Sort
                     this.productController.sortProductsBy();
-
                     break;
                 case "6":
                     // Exit

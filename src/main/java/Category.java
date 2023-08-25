@@ -5,5 +5,26 @@ public enum Category {
     CLOTHING,
     SHOES,
     FURNITURE,
-    OTHER
+    OTHER;
+
+    public String toString() {
+        switch (this) {
+            case FOOD:
+                return "C: Food";
+            case ELECTRONICS:
+                return "C: Electronics";
+            case BEVERAGES:
+                return "C: Beverages";
+            case CLOTHING:
+                return "C: Clothing";
+            case SHOES:
+                return "C: Shoes";
+            case FURNITURE:
+                return "C: Furniture";
+            case OTHER:
+                return "C: Other";
+            default:
+                return null;
+        }
+    }
 }
