@@ -1,5 +1,10 @@
+package controller;
+
+import dto.Category;
+import dto.Product;
+import service.ProductService;
+
 import javax.swing.*;
-import java.sql.Array;
 import java.util.*;
 
 import java.util.ArrayList;
@@ -30,7 +35,7 @@ public class ProductController {
         String selectedCategory = (String) this.getUserInputFromDropDown(
                 Arrays.stream(Category.values()).
                         map(Category::name).toArray(),
-                "Choose Category",
+                "Choose a Category",
                 "Choose product category: "
         );
 

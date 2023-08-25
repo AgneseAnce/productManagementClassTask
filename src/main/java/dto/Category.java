@@ -1,3 +1,5 @@
+package dto;
+
 public enum Category {
     FOOD,
     ELECTRONICS,

@@ -1,4 +1,7 @@
+package service;
+
 import com.google.gson.Gson;
+import dto.Product;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
 import java.net.URI;

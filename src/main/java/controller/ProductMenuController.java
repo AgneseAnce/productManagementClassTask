@@ -1,3 +1,7 @@
+package controller;
+
+import controller.ProductController;
+
 import javax.swing.*;
 
 public class ProductMenuController {
